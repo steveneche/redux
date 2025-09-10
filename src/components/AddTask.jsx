@@ -1,7 +1,10 @@
+
+// importing dependencies
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTask } from "../redux/taskSlice";
 
+// function that adds task
 const AddTask = () => {
   const [description, setDescription] = useState();
   const dispatch = useDispatch();
